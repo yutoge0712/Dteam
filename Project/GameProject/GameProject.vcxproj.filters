@@ -5,6 +5,9 @@
     <ClCompile Include="Base\Base.cpp">
       <Filter>Base</Filter>
     </ClCompile>
+    <ClCompile Include="Game\ShareNum.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Base">
@@ -20,6 +23,9 @@
   <ItemGroup>
     <ClInclude Include="Base\Base.h">
       <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ShareNum.h">
+      <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
