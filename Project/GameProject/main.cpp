@@ -92,7 +92,8 @@ void Init(void)
 	Base::Add(new StatusLine());
 	ShareNum::score = 0;
 	ADD_RESOURCE("MainObject", CImage::CreateImage("Image/Dteam_huka.png"));
-
+	ADD_RESOURCE("MainObject", CImage::CreateImage("Image/Dteam_maruitori.png"));
+	ADD_RESOURCE("MainObject", CImage::CreateImage("Image/Dteam_kozakura"));
 }
 
 
