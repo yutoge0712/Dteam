@@ -8,6 +8,9 @@
     <ClCompile Include="Game\ShareNum.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="Game\ClickPoint.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Base">
@@ -25,6 +28,9 @@
       <Filter>Base</Filter>
     </ClInclude>
     <ClInclude Include="Game\ShareNum.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ClickPoint.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
