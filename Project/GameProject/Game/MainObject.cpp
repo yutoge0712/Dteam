@@ -25,8 +25,8 @@ void MainObject::Collision()
 
 void MainObject::ImageSet()
 {
-	maru_img = COPY_RESOURCE("MainObject", CImage);
-	huka_img = COPY_RESOURCE("MainObject", CImage);
-	koza_img = COPY_RESOURCE("MainObject", CImage);
+	maru_img = COPY_RESOURCE("huka", CImage);
+	huka_img = COPY_RESOURCE("maru", CImage);
+	koza_img = COPY_RESOURCE("koza", CImage);
 
 }
