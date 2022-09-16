@@ -5,6 +5,7 @@ public:
 	CImage bar_img;
 	CImage line_img;
 	CImage frame_img;
+	CImage Egg_icon_img;
 	double score_rate;
 public:
 	StatusLine();
