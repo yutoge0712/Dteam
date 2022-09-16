@@ -10,6 +10,7 @@ enum {
 	eType_Effect,
 	eType_UI,
 	eType_Scene,
+	eState_StatusLine,
 };
 
 //d—Í‰Á‘¬“x
