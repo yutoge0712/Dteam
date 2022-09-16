@@ -91,9 +91,9 @@ void Init(void)
 	ADD_RESOURCE("Egg_icon", CImage::CreateImage("Image/easter_egg_icon.png"));
 	Base::Add(new StatusLine());
 	ShareNum::score = 0;
-	ADD_RESOURCE("MainObject", CImage::CreateImage("Image/Dteam_huka.png"));
-	ADD_RESOURCE("MainObject", CImage::CreateImage("Image/Dteam_maruitori.png"));
-	ADD_RESOURCE("MainObject", CImage::CreateImage("Image/Dteam_kozakura"));
+	ADD_RESOURCE("huka", CImage::CreateImage("Image/Dteam_huka.png"));
+	ADD_RESOURCE("maru", CImage::CreateImage("Image/Dteam_maruitori.png"));
+	ADD_RESOURCE("koza", CImage::CreateImage("Image/Dteam_kozakura"));
 }
 
 
