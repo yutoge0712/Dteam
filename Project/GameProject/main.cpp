@@ -1,6 +1,7 @@
 #include <GLLibrary.h>
 #include "Base/Base.h"
 #include "Game/StatusLine.h"
+#include "Game/ShareNum.h"
 #define SCREEN_WIDTH 720
 #define SCREEN_HEIGHT 1280
 
@@ -88,6 +89,7 @@ void Init(void)
 	ADD_RESOURCE("Status", CImage::CreateImage("Image/DTeam_status_line.png"));
 	ADD_RESOURCE("Status_frame", CImage::CreateImage("Image/DTeam_egg.png"));
 	Base::Add(new StatusLine());
+	ShareNum::score = 0;
 }
 
 

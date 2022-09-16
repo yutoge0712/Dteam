@@ -26,7 +26,6 @@ void StatusLine::Draw() {
 void StatusLine::Update() {
 	score_rate = ShareNum::score * 10000 / ShareNum::MaxScore ;
 	double ScoreTemp = 467 * score_rate/10000;
-	std::cout << ScoreTemp << std::endl;
 	bar_img.SetRect(12, 28, 12+ ScoreTemp, 53);
 	bar_img.SetSize( ScoreTemp, 53 - 28);
 }
