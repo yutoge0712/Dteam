@@ -12,12 +12,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Base\Base.cpp" />
+    <ClCompile Include="Game\MainObject.cpp" />
     <ClCompile Include="Game\ShareNum.cpp" />
     <ClCompile Include="Game\StatusLine.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\Base.h" />
+    <ClInclude Include="Game\MainObject.h" />
     <ClInclude Include="Game\ShareNum.h" />
     <ClInclude Include="Game\StatusLine.h" />
   </ItemGroup>
