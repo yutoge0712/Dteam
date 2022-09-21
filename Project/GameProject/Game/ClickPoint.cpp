@@ -19,7 +19,9 @@ void ClickPoint::Update()
 void ClickPoint::Draw()
 {
 	m_img.Draw();
+
+
+
+
+
 }
-
-
-
