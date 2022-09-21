@@ -3,6 +3,8 @@
 #include "../Base/Base.h"
 class MainObject : public Base {
 public:
+	//—‘
+	CImage tama_img;
 	//ŠÛ‚¢’¹
 	CImage maru_img;
 	//›z‰»‚µ‚½‚Ä‚Ì’¹
