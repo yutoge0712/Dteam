@@ -36,12 +36,14 @@ void MainObject::ImageSet()
 	//maru_img.SetRect();
 	//huka_img.SetRect();
 	//koza_img.SetRect();
-	// 
-	//tama_img.SetSize();
-	//maru_img.SetSize();
-	//huka_imgSetSize();
-	//koza_imgSetSize();
+	
+	//tama_img.SetSize(352,356);
+	//maru_img.SetSize(380,345);
+	//huka_imgSetSize(230,383);
+	//koza_imgSetSize(180,180);
 
-	tama_img.SetPos();
-	maru_img.
+	//tama_img.SetPos(500,500);
+	//maru_img.SetPos(500,500);
+	//huka_img.SetPos(500,500);
+	//koza_img.SetPos(500,500);
 }

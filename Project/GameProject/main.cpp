@@ -94,6 +94,7 @@ void Init(void)
 	ADD_RESOURCE("huka", CImage::CreateImage("Image/Dteam_huka.png"));
 	ADD_RESOURCE("maru", CImage::CreateImage("Image/Dteam_maruitori.png"));
 	ADD_RESOURCE("koza", CImage::CreateImage("Image/Dteam_kozakura"));
+	ADD_RESOURCE("tama", CImage::CreateImage("Image/Dteam_tamago"));
 }
 
 
