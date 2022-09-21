@@ -12,6 +12,7 @@ enum {
 	eType_Scene,
 	eType_MObject,
 	eType_StatusLine,
+	eType_ClickPoint,
 };
 
 //d—Í‰Á‘¬“x

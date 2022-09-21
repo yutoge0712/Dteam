@@ -3,7 +3,7 @@
 #include "ShareNum.h"
 #include <iostream>
 
-StatusLine::StatusLine() :Base(eState_StatusLine) {
+StatusLine::StatusLine() :Base(eType_StatusLine) {
 	ImageSet();
 }
 void StatusLine::ImageSet() {
