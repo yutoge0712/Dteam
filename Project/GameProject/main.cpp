@@ -3,6 +3,7 @@
 #include "Game/StatusLine.h"
 #include "Game/ShareNum.h"
 #include"Game/ClickPoint.h"
+#include "Game/MainObject.h"
 #define SCREEN_WIDTH 720
 #define SCREEN_HEIGHT 1280
 
@@ -98,6 +99,8 @@ void Init(void)
 	ADD_RESOURCE("koza", CImage::CreateImage("Image/Dteam_kozakura.png"));
 	ADD_RESOURCE("tama", CImage::CreateImage("Image/Dteam_tamago.png"));
 	Base::Add(new ClickPoint());
+	ShareNum::tori_state = 0;
+	Base::Add(new MainObject(CVector2D(0, 0)));
 }
 
 
