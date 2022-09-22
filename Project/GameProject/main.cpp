@@ -2,6 +2,7 @@
 #include "Base/Base.h"
 #include "Game/StatusLine.h"
 #include "Game/ShareNum.h"
+#include"Game/ClickPoint.h"
 #define SCREEN_WIDTH 720
 #define SCREEN_HEIGHT 1280
 
@@ -16,6 +17,7 @@
 void MainLoop(void) {
 	Base::UpdateAll();
 	Base::DrawAll();
+	Base::CheckKillAll();
 }
 
 void Init(void)
@@ -93,8 +95,9 @@ void Init(void)
 	ShareNum::score = 0;
 	ADD_RESOURCE("huka", CImage::CreateImage("Image/Dteam_huka.png"));
 	ADD_RESOURCE("maru", CImage::CreateImage("Image/Dteam_maruitori.png"));
-	ADD_RESOURCE("koza", CImage::CreateImage("Image/Dteam_kozakura"));
-	ADD_RESOURCE("tama", CImage::CreateImage("Image/Dteam_tamago"));
+	ADD_RESOURCE("koza", CImage::CreateImage("Image/Dteam_kozakura.png"));
+	ADD_RESOURCE("tama", CImage::CreateImage("Image/Dteam_tamago.png"));
+	Base::Add(new ClickPoint());
 }
 
 
