@@ -21,7 +21,7 @@ void MainObject::Update()
 
 void MainObject::Draw()
 {
-	m_img.Draw();
+	//m_img.Draw();
 	switch (ShareNum::tori_state) {
 		case 0:
 			//—‘
@@ -31,7 +31,7 @@ void MainObject::Draw()
 			//›z‰»
 			huka_img.Draw();
 			break;
-		case2:
+		case 2:
 			//‚Ð‚æ‚±
 			maru_img.Draw();
 			break;
