@@ -4,8 +4,8 @@
 #include "Game/ShareNum.h"
 #include"Game/ClickPoint.h"
 #include "Game/MainObject.h"
-#define SCREEN_WIDTH 720
-#define SCREEN_HEIGHT 1280
+#define SCREEN_WIDTH 540
+#define SCREEN_HEIGHT 960
 
 
 

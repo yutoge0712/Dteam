@@ -12,7 +12,7 @@ void ClickPoint::Update()
 {
 	if (PUSH(CInput::eMouseL)) {
 		ShareNum::score += 1500;
-		Base::Add(new PopupPoint(CVector2D(200, 500), 1500));
+		Base::Add(new PopupPoint(CVector2D(150, 375), 1500));
 	}
 
 }

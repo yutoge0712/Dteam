@@ -35,6 +35,9 @@ void MainObject::Draw()
 			//�Ђ悱
 			maru_img.Draw();
 			break;
+		case 3:
+			koza_img.Draw();
+			break;
 	}
 
 	//maru_img.Draw();
@@ -60,13 +63,13 @@ void MainObject::ImageSet()
 	//huka_img.SetRect();
 	//koza_img.SetRect();
 	
-	//tama_img.SetSize(352,356);
-	//maru_img.SetSize(380,345);
-	//huka_imgSetSize(230,383);
-	//koza_imgSetSize(180,180);
+	tama_img.SetSize(300,300);
+	maru_img.SetSize(300,286);
+	huka_img.SetSize(245,300);
+	koza_img.SetSize(300,300);
 
-	tama_img.SetPos(200,500);
-	maru_img.SetPos(200,500);
-huka_img.SetPos(200,500);
-	koza_img.SetPos(200,500);
+	tama_img.SetPos(140,375);
+	maru_img.SetPos(140,375);
+	huka_img.SetPos(140,375);
+	koza_img.SetPos(140,375);
 }
